@@ -23,16 +23,11 @@ function calculateHanoi(disksNumber, turnsSpeed) {
     turns: turns,
     seconds: seconds
   };
-
   return obj;
-
 
 }
 
-console.log(calculateHanoi(9, 4308));
-
-
-
+// console.log(calculateHanoi(9, 4308));
 
 
 module.exports = {
